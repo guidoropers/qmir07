@@ -170,7 +170,8 @@ Create a boxplot for *voter_turnout* in all countries in the data set. Add a hor
 ```{r question-boxplot-2, echo=FALSE}
 question_text("How many countries have a median voter turnout higher than 60%?",
          answer("5", correct = TRUE),
-         incorrect = "Are you sure you only counted the countries for which the median is higher than 60%?"
+         incorrect = "Are you sure you only counted the countries for which the median is higher than 60%?",
+         allow_retry = TRUE
          )
 ```
 
